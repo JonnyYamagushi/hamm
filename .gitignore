@@ -1,0 +1,19 @@
+# Segredos e configurações locais: nunca no repositório
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+google-services.json
+GoogleService-Info.plist
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
